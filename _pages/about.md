@@ -21,4 +21,4 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hi there! I am a PhD student in machine learning at Telecom Paris since September 2019, under the supervision of [Prof. Florence d'Alche](https://perso.telecom-paristech.fr/fdalche/) and [Prof. Pavlo Mozharovskyi](https://perso.telecom-paristech.fr/mozharovskyi/). I am currently working on interpretability of neural networks, focusing more on models applied on image or audio data. Before this, I completed my bachelors and masters in Electrical Engineering (Specialization: Communication and Signal Processing) at IIT Bombay. For my master's thesis, I worked with [Prof. Preeti Rao](https://www.ee.iitb.ac.in/wiki/faculty/prao) and [Prof. Yi-Hsuan Yang](https://www.citi.sinica.edu.tw/pages/yang/) on Speech-to-Singing conversion.
 
-Broadly, I am interested by machine learning applications on audio and visual domains. Barring research, ...  TBC
+Broadly, I am interested by machine learning applications on audio and visual domains. Barring research, I enjoy playing/involving myself with chess, squash, calisthenics or following sports (primarily football, boxing, cricket).
