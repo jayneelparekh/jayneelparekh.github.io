@@ -2,16 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD candidate @ Telecom Paris, IP Paris
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -23,5 +19,6 @@ social: true  # includes social icons at the bottom of the page
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. --> 
 
-Brief description, starting edits! 
+Hi there! I am a PhD student in machine learning at Telecom Paris since September 2019, under the supervision of [Prof. Florence d'Alche](https://perso.telecom-paristech.fr/fdalche/) and [Prof. Pavlo Mozharovskyi](https://perso.telecom-paristech.fr/mozharovskyi/). I am currently working on interpretability of neural networks, focusing more on models applied on image or audio data. Before this, I completed my bachelors and masters in Electrical Engineering (Specialization: Communication and Signal Processing) at IIT Bombay. For my master's thesis, I worked with [Prof. Preeti Rao](https://www.ee.iitb.ac.in/wiki/faculty/prao) and [Prof. Yi-Hsuan Yang](https://www.citi.sinica.edu.tw/pages/yang/) on Speech-to-Singing conversion.
 
+Broadly, I am interested by machine learning applications on audio and visual domains. Barring research, ...  TBC
