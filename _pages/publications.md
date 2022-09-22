@@ -8,7 +8,7 @@ nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
-Full list available on [Google Scholar](https://scholar.google.com/citations?user=CF7ncpUAAAAJ&hl=en)
+Selected set of publications below. Full list available on [Google Scholar](https://scholar.google.com/citations?user=CF7ncpUAAAAJ&hl=en)
 <div class="publications" >
 
 {% for y in page.years %}
