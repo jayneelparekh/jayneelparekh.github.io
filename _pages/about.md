@@ -6,7 +6,7 @@ subtitle: PhD candidate @ Telecom Paris, IP Paris
 
 profile:
   align: right
-  image: me1.jpg
+  image: me3.jpg
   image_circular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
