@@ -1,8 +1,11 @@
 ---
-layout: cv
+layout: default
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
 ---
+
+#### [CV](/assets/pdf/curriculum_vitae.pdf) #### 
+
+(2-page PDF, last updated: September 2022)
