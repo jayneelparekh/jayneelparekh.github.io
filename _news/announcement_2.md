@@ -5,4 +5,4 @@ inline: true
 ---
 
 
-Paper accepted at NeurIPS 2021! 
+Paper: "A Framework to Learn with Interpretation" (FLINT) accepted at NeurIPS 2021! 
