@@ -6,4 +6,4 @@ inline: true
 
 
 
-Talk for our work "A Framework to Learn with Interpretation" at IBM Research, Saclay. Couldn't present it being down with fever!
+Talk for FLINT at IBM Research, Saclay. Presented by my advisor (I was down with fever!)
