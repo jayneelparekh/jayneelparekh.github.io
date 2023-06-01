@@ -6,6 +6,6 @@ nav: true
 nav_order: 4
 ---
 
-#### [CV](/assets/pdf/curriculum_vitae.pdf) #### 
+#### [CV](/assets/pdf/CV_Jayneel_Parekh_May2023_website.pdf) #### 
 
-(2-page PDF, last updated: September 2022)
+(2-page PDF, last updated: May 2023)
