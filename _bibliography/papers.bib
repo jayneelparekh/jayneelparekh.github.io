@@ -1,10 +1,37 @@
 ---
 ---
 
+@article{khayatan2025analyzing,
+  title={Analyzing Fine-tuning Representation Shift for Multimodal LLMs Steering alignment},
+  author={Khayatan*, Pegah and Shukor*, Mustafa and Parekh*, Jayneel and Cord, Matthieu},
+  journal={arXiv preprint},
+  year={2025},
+  abstract={Multimodal LLMs have reached remarkable levels of proficiency in understanding multimodal inputs, driving extensive research to develop increasingly powerful models. However, far less attention has been given to understanding and explaining the underlying mechanisms of these models. Most existing explainability research examines these models only in their final states, overlooking the dynamic representational shifts that occur during training. In this work, we systematically analyze the evolution of hidden-state representations to reveal how fine-tuning alters a model’s internal structure to specialize on new multimodal tasks. Using a concept-based approach, we map hidden states to interpretable visual and textual concepts, enabling us to trace changes in encoded concepts across modalities as training progresses. We also demonstrate the use of shift vectors to capture this concepts changes. These shift vectors allow us to recover fine-tuned concepts by shifting those in the original model. Finally, we explore the practical impact of our findings on model steering, showing that we can adjust multimodal LLMs behaviors without any training, such as modifying answer types, captions style or biasing the model toward specific responses. Our work sheds light on how multimodal representations evolve through fine-tuning and offers a new perspective for interpreting model adaptation in multimodal tasks. The code for this project is publicly available},
+  pdf={https://arxiv.org/pdf/2501.03012}
+}
+
+@article{parekh2024restyling,
+  title={Restyling Unsupervised Concept Based Interpretable Networks with Generative Models},
+  author={Parekh*, Jayneel and Bouniot*, Quentin and Mozharovskyi, Pavlo and Newson, Alasdair and d'Alch{\'e}-Buc, Florence},
+  journal={arXiv preprint},
+  year={2024},
+  abstract={Developing inherently interpretable models for prediction has gained prominence in recent years. A subclass of these models, wherein the interpretable network relies on learning high-level concepts, are valued because of closeness of concept representations to human communication. However, the visualization and understanding of the learnt unsupervised dictionary of concepts encounters major limitations, especially for large-scale images. We propose here a novel method that relies on mapping the concept features to the latent space of a pretrained generative model. The use of a generative model enables high quality visualization, and lays out an intuitive and interactive procedure for better interpretation of the learnt concepts by imputing concept activations and visualizing generated modifications. Furthermore, leveraging pretrained generative models has the additional advantage of making the training of the system more efficient. We quantitatively ascertain the efficacy of our method in terms of accuracy of the interpretable prediction network, fidelity of reconstruction, as well as faithfulness and consistency of learnt concepts. The experiments are conducted on multiple image recognition benchmarks for large-scale images.},
+  pdf={https://openreview.net/forum?id=CexatBp6rx}
+}
+
+@article{parekh2024concept,
+  title={A Concept-Based Explainability Framework for Large Multimodal Models},
+  author={Parekh, Jayneel and Khayatan, Pegah and Shukor, Mustafa and Newson, Alasdair and Cord, Matthieu},
+  journal={Advances in Neural Information Processing Systems <b>(NeurIPS)</b>},
+  year={2024},
+  abstract={Large multimodal models (LMMs) combine unimodal encoders and large language models (LLMs) to perform multimodal tasks. Despite recent advancements towards the interpretability of these models, understanding internal representations of LMMs remains largely a mystery. In this paper, we present a novel framework for the interpretation of LMMs. We propose a dictionary learning based approach, applied to the representation of tokens. The elements of the learned dictionary correspond to our proposed concepts. We show that these concepts are well semantically grounded in both vision and text. Thus we refer to these as “multimodal concepts”. We qualitatively and quantitatively evaluate the results of the learnt concepts. We show that the extracted multimodal concepts are useful to interpret representations of test samples. Finally, we evaluate the disentanglement between different concepts and the quality of grounding concepts visually and textually. Our implementation is publicly available.},
+  pdf={https://arxiv.org/pdf/2406.08074}
+}
+
 @article{parekh2023tackling,
   title={Tackling Interpretability in Audio Classification Networks with Non-negative Matrix Factorization},
   author={Parekh, Jayneel and Parekh, Sanjeel and Mozharovskyi, Pavlo and Richard, Ga{\"e}l and d'Alch{\'e}-Buc, Florence},
-  journal={Accepted in IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP) (available via early access, preprint on arxiv)},
+  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP), arxiv},
   year={2023},
   abstract={This paper tackles two major problem settings for interpretability of audio processing networks, post-hoc and by-design interpretation. For post-hoc interpretation, we aim to interpret decisions of a network in terms of high-level audio objects that are also listenable for the end-user. This is extended to present an inherently interpretable model with high performance. To this end, we propose a novel interpreter design that incorporates non-negative matrix factorization (NMF). In particular, an interpreter is trained to generate a regularized intermediate embedding from hidden layers of a target network, learnt as time-activations of a pre-learnt NMF dictionary. Our methodology allows us to generate intuitive audio-based interpretations that explicitly enhance parts of the input signal most relevant for a network's decision. We demonstrate our method's applicability on a variety of classification tasks, including multi-label data for real-world audio and music.},
   pdf={https://arxiv.org/pdf/2305.07132.pdf}
@@ -34,7 +61,7 @@
 @article{beaudouin2020flexible,
   title={Flexible and context-specific AI explainability: A multidisciplinary approach},
   author={Beaudouin, Val{\'e}rie and Bloch, Isabelle and Bounie, David and Cl{\'e}men{\c{c}}on, St{\'e}phan and d'Alch{\'e}-Buc, Florence and Eagan, James and Maxwell, Winston and Mozharovskyi, Pavlo and Parekh, Jayneel},
-  journal={arXiv Preprint, shorter version presented at NeHuAI@ECAI},
+  journal={arXiv preprint, shorter version presented at NeHuAI@ECAI},
   year={2020},
   abstract={The recent enthusiasm for artificial intelligence (AI) is due principally to advances in deep learning. Deep learning methods are remarkably accurate, but also opaque, which limits their potential use in safety-critical applications. To achieve trust and accountability, designers and operators of machine learning algorithms must be able to explain the inner workings, the results and the causes of failures of algorithms to users, regulators, and citizens. The originality of this paper is to combine technical, legal and economic aspects of explainability to develop a framework for defining the ”right” level of explainability in a given context. We propose three logical steps: First, define the main contextual factors, such as who the audience of the explanation is, the operational context, the level of harm that the system could cause, and the legal/regulatory framework. This step will help characterize the operational and legal needs for explanation, and the corresponding social benefits. Second, examine the technical tools available, including post hoc approaches (input perturbation, saliency maps...) and hybrid AI approaches. Third, as function of the first two steps, choose the right levels of global and local explanation outputs, taking into the account the costs involved. We identify seven kinds of costs and emphasize that explanations are socially useful only when total social benefits exceed costs.},
   pdf={https://arxiv.org/pdf/2003.07703.pdf}
