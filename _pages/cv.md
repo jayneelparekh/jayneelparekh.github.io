@@ -6,6 +6,6 @@ nav: true
 nav_order: 4
 ---
 
-#### [CV](/assets/pdf/curriculum_vitae_JP_May2025.pdf) #### 
+#### [CV](/assets/pdf/curriculum_vitae_JP_Sep2025_website.pdf) #### 
 
-(2-page PDF, last updated: May 2025)
+(2-page PDF, last updated: September 2025)
